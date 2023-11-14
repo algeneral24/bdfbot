@@ -1,4 +1,4 @@
 pillow
 telebot
 PyMuPDF
-magic
+python-magic
