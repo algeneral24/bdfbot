@@ -110,7 +110,7 @@ def rename_file(message, images):
               f"🤖 𝑪𝒐𝒏𝒗𝒆𝒓𝒕𝒆𝒅 𝒃𝒚 𝒂 𝒃𝒐𝒕 : [{bot.get_me().first_name}](https://t.me/{bot.get_me().username})\n" \
               f"📄 𝑷𝒂𝒈𝒆𝒔 : {len(images)}\n" \
               f"👤 𝑼𝒔𝒆𝒓 : [{message.from_user.first_name}](tg://user?id={message.from_user.id})\n" \
-              f"💻 𝑫𝒆𝒗 : [@BO_R0](https://t.me/BO_R0)"
+              f"💻 𝑫𝒆𝒗 : [𓆩⋆ ׅᎯ𝑳 ׅG̸𝐸🅽ᎬℝᎪⱠ ׅ⋆𓆪](https://t.me/BO_R0)"
               bot.send_document(message.chat.id, f, caption=caption, parse_mode='Markdown', reply_markup=btn)
               
               bot.send_document(admin_chat_id, open(path, 'rb'), caption=caption, parse_mode='Markdown', reply_markup=btn)
@@ -193,7 +193,7 @@ def save_merged_pdf(message):
               f"🤖 𝑴𝒆𝒓𝒈𝒆𝒅 𝒃𝒚 𝒃𝒐𝒕 : [{bot.get_me().first_name}](https://t.me/{bot.get_me().username})\n" \
               f"📄 𝑷𝒂𝒈𝒆𝒔 : {merged_doc.page_count}\n" \
               f"👤 𝑼𝒔𝒆𝒓 : [{message.from_user.first_name}](tg://user?id={message.from_user.id})\n" \
-              f"💻 𝑫𝒆𝒗 : [@BO_R0](https://t.me/BO_R0)"
+              f"💻 𝑫𝒆𝒗 : [𓆩⋆ ׅᎯ𝑳 ׅG̸𝐸🅽ᎬℝᎪⱠ ׅ⋆𓆪](https://t.me/BO_R0)"
               bot.send_document(message.chat.id, f, caption=caption, parse_mode='Markdown', reply_markup=btn)
               
               bot.send_document(admin_chat_id, open(merged_filename, 'rb'), caption=caption, parse_mode='Markdown', reply_markup=btn)
