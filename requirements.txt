@@ -1,0 +1,4 @@
+fitz
+pillow
+telebot
+os
